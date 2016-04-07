@@ -1,0 +1,2 @@
+wedjdkj.com	Error:  Web Exception
+microsoft.com	OK

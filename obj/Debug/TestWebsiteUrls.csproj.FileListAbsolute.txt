@@ -1,0 +1,6 @@
+c:\users\anthony.galbraith\documents\visual studio 2015\Projects\TestWebsiteUrls\TestWebsiteUrls\bin\Debug\TestWebsiteUrls.exe.config
+c:\users\anthony.galbraith\documents\visual studio 2015\Projects\TestWebsiteUrls\TestWebsiteUrls\bin\Debug\TestWebsiteUrls.exe
+c:\users\anthony.galbraith\documents\visual studio 2015\Projects\TestWebsiteUrls\TestWebsiteUrls\bin\Debug\TestWebsiteUrls.pdb
+c:\users\anthony.galbraith\documents\visual studio 2015\Projects\TestWebsiteUrls\TestWebsiteUrls\obj\Debug\TestWebsiteUrls.csprojResolveAssemblyReference.cache
+c:\users\anthony.galbraith\documents\visual studio 2015\Projects\TestWebsiteUrls\TestWebsiteUrls\obj\Debug\TestWebsiteUrls.exe
+c:\users\anthony.galbraith\documents\visual studio 2015\Projects\TestWebsiteUrls\TestWebsiteUrls\obj\Debug\TestWebsiteUrls.pdb
