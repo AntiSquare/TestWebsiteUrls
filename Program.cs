@@ -12,6 +12,8 @@ namespace TestWebsiteUrls
     {
         public static string checkPageStatus (string url)
         {
+            int timeoutSeconds = 30;
+
             if (url == null)
                 throw new ArgumentNullException("url");
 
@@ -20,6 +22,14 @@ namespace TestWebsiteUrls
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             request.Method = WebRequestMethods.Http.Head;
+
+
+            // compress the response since a 404 from HEAD can be big
+            request.AutomaticDecompression = DecompressionMethods.GZip;
+            request.AllowAutoRedirect = false;
+            // Kill the request after 30 seconds to keep a large requests and loops from happening that keep the request running forever
+            request.Timeout = timeoutSeconds * 1000;
+            request.KeepAlive = false;
 
             try
             {
